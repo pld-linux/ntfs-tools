@@ -5,8 +5,6 @@ Version:	0.9
 Release:	1
 License:	GPL
 Group:		Applications/File
-Group(de):	Applikationen/Datei
-Group(pl):	Aplikacje/Pliki
 Source0:	http://prdownloads.sourceforge.net/linux-ntfs/orig-%{name}-%{version}.tar.bz2
 URL:		http://linux-ntfs.sf.net/
 BuildRequires:	autoconf
