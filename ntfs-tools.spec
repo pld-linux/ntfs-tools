@@ -5,7 +5,7 @@ Version:	0.9
 Release:	1
 License:	GPL
 Group:		Applications/File
-Source0:	http://prdownloads.sourceforge.net/linux-ntfs/orig-%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/linux-ntfs/orig-%{name}-%{version}.tar.bz2
 URL:		http://linux-ntfs.sf.net/
 BuildRequires:	autoconf
 BuildRequires:	ctags
