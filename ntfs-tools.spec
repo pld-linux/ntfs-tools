@@ -22,7 +22,7 @@ Narzêdzia w stylu mtools do partycji NTFS.
 %setup -q -n ntfs
 
 %build
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 
