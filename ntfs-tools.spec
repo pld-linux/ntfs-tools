@@ -8,6 +8,8 @@ Group:		Applications/File
 Source0:	http://prdownloads.sourceforge.net/linux-ntfs/orig-%{name}-%{version}.tar.bz2
 URL:		http://linux-ntfs.sf.net/
 BuildRequires:	autoconf
+BuildRequires:	ctags
+ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
