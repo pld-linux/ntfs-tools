@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/File
 Source0:	http://dl.sourceforge.net/linux-ntfs/orig-%{name}-%{version}.tar.bz2
+# Source0-md5:	99f39bd4d04cc3148678d473e1e56cfb
 URL:		http://linux-ntfs.sf.net/
 BuildRequires:	autoconf
 BuildRequires:	ctags
