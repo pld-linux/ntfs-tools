@@ -33,12 +33,10 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 install ntcat ntchange ntcp ntdir ntdump ntgrep ntmkdir $RPM_BUILD_ROOT%{_bindir}
 # mkntfs not included - it's in more recent linux-ntfs package
 
-gzip -9nf HACKING
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz doc/*
+%doc HACKING doc/*
 %attr(755,root,root) %{_bindir}/*
