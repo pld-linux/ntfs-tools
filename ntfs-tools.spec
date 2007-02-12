@@ -1,5 +1,5 @@
 Summary:	User level tools a la mtools to access an NTFS volume
-Summary(pl):	Narzêdzia w stylu mtools do partycji NTFS
+Summary(pl.UTF-8):   NarzÄ™dzia w stylu mtools do partycji NTFS
 Name:		ntfs-tools
 Version:	0.9
 Release:	1
@@ -16,8 +16,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 User level tools a la mtools to access an NTFS volume.
 
-%description -l pl
-Narzêdzia w stylu mtools do partycji NTFS.
+%description -l pl.UTF-8
+NarzÄ™dzia w stylu mtools do partycji NTFS.
 
 %prep
 %setup -q -n ntfs
