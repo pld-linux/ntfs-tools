@@ -1,5 +1,5 @@
 Summary:	User level tools a la mtools to access an NTFS volume
-Summary(pl.UTF-8):   Narzędzia w stylu mtools do partycji NTFS
+Summary(pl.UTF-8):	Narzędzia w stylu mtools do partycji NTFS
 Name:		ntfs-tools
 Version:	0.9
 Release:	1
